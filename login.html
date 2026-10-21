@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- bootstrap file added -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/registerLogin.css">
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+</head>
+<body class="bodyBackground">
+    <!-- navbar part -->
+    <section class="divWhite shadow wow fadeIn" >
+      <div class="container mx-auto ">
+        <!-- part 1 -->
+        <div class="mt-2 d-flex justify-content-between">
+          <!-- logo -->
+          <div>
+            <a href="index.html">
+              <img src="imgs/logo.png" style="width: 120px" class="img-fluid" alt="logo" />
+            </a>
+          </div>
+          <!-- login reg button -->
+          <div class="d-flex">
+            <a class="nav-link active nav-link-ltr" href="register.html">Register</a>
+            <a class="nav-link active nav-link-ltr mx-3" href="login.html">Login</a>
+          </div>
+        </div>
+
+        <!-- part 2 -->
+        <div>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div>
+                <!-- empty -->
+              </div>
+              <!-- collapse responsive button -->
+              <!-- data-bs-target related to id -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- id for this part -->
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link active nav-link-ltr" href="index.html">Home</a>
+                  <a class="nav-link active nav-link-ltr" href="profile.html">Profile</a>
+                  <a class="nav-link active nav-link-ltr" href="buyMiles.html">Buy Miles</a>
+                  <a class="nav-link active nav-link-ltr" href="sellMiles.html">Sell Miles</a>
+                  <a class="nav-link active nav-link-ltr" href="about.html">About Us</a>
+                  <a class="nav-link active nav-link-ltr" href="sellCredits.html">Sell Credit
+                  </a>
+                  <a class="nav-link active nav-link-ltr" href="blog.html">Blog</a>
+                  <a class="nav-link active nav-link-ltr" href="sellqantas.html">Sell Qantas</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+    </section>
+    <!-- navbar part end -->
+
+
+     <!-- form -->
+    <br>
+    <section class="container mx-auto mt-5 wow pulse">
+        <div class="divWhite formWidth p-4" style="border-radius: 20px;">
+            <h4 class="text-center" >Login your account</h4>
+            <br>
+            <form action="">
+                <!-- email -->
+                <div class="form-floating mb-3 ">
+                    <input type="email" class="form-control border-2" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email Address*</label>
+                </div>
+                <!-- password -->
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control border-2" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password*</label>
+                </div>
+
+                <div class="d-grid gap-1">
+                    <button class="btn btn-primary" type="button">
+                        <span> <i class="fa-solid fa-right-to-bracket"></i> Login </span>
+                    </button>
+                    <br>
+                    <p>New to The Miles Market? <a href="register.html" style="text-decoration: none;" > Register here</a> </p> 
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <br> <br>
+    <!-- form done -->
+
+    <!-- footer part -->
+    <section class="wow fadeIn">
+      <!-- part 1 -->
+      <div style="background-color: #0B314E;">
+        <br>
+        <div class="container mx-auto mt-4" >
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+
+              <img src="imgs/logo.png" style="width: 100px" class="img-fluid" alt="">
+              <br><br>
+              <p class="footerText" >
+                The Miles Market is the best place to buy and sell airline miles, hotel points and credit card rewards
+              </p>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+              <p class="text-white"> <b>Quick links</b> </p>
+              <a href="" class="footerLinks" >Sell Airline Miles</a>
+              <br>
+              <a href="" class="footerLinks" >Buy Miles</a>
+              <br>
+              <a href="" class="footerLinks" >Sell Hotel Points</a>
+              <br>
+              <a href="" class="footerLinks" >Sell Credit Card Points</a>
+              <br>
+              <a href="" class="footerLinks" >Sitemap</a>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+              <p class="text-white"> <b>Company</b> </p>
+              <a href="" class="footerLinks" >Blog</a>
+              <br>
+              <a href="" class="footerLinks" >About Us</a>
+              <br>
+              <a href="" class="footerLinks" >Contact Us</a>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+              <p class="text-white"> <b>Contact Us</b> </p>
+              <!-- address -->
+              <span class="d-flex " >
+                <i class="fa-solid fa-location-dot " style="color: #56D4FC; font-size: 20px;"></i>
+                <p class="footerLinks mx-3">2170 N 29th Ave Hollywood, <br> FL 33020</p>
+              </span>
+
+              <!-- phone -->
+              <span class="d-flex " >
+                <i class="fa-solid fa-phone-volume " style="color: #56D4FC; font-size: 20px;"></i>
+                <p class="footerLinks mx-3">8664583853</p>
+              </span>
+
+              <!-- social icons -->
+              <span class="text-white " style="font-size: 25px; " >
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin mx-2"></i>
+                <i class="fa-brands fa-twitter mx-2"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+
+            </div>
+            
+          </div>
+          <br> <br>
+
+          <!-- payment part -->
+          <div class="row">
+            <div class="text-center col-10 col-md-6 smallDiv" >
+              <p >
+                <b>Payment Methods</b> 
+              </p>
+              <!-- icons -->
+              <b >
+                <i class="fa-solid fa-circle-dollar-to-slot"></i> Cash| 
+                <i class="fa-solid fa-credit-card"></i> Credit Card |
+                <i class="fa-brands fa-paypal"></i> Paypal
+              </b>
+            </div>
+          </div>
+          
+          <br>
+          <p class="text-white text-center" > All Right Reserved The Miles Market | © 2024</p>
+          <br>
+        </div>
+
+      </div>
+
+      <br>
+      <!-- part 2 -->
+      <span class="text-center">
+        <p> <b>Non-Affiliation Disclaimer</b> </p>
+        <p>The Miles Market site is not endorsed by, or directly affiliated with any hotel or airline.</p>
+      </span>
+      <br>
+    </section>
+    <!-- footer part end -->
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

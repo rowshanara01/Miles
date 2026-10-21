@@ -1,0 +1,40 @@
+.divStyle{
+    margin-top: -40px;
+    border-radius: 20px;
+}
+
+.divStyle2{
+    margin-top: -50px;
+}
+
+.divStyle3{
+    margin-top: -65px;
+}
+
+.avatar-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  margin: auto;
+}
+
+.avatar-input {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

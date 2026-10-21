@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sell credits</title>
+
+    <!-- bootstrap file added -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+</head>
+<body>
+    <!-- navbar part -->
+    <section class="divWhite shadow wow fadeIn" >
+      <div class="container mx-auto ">
+        <!-- part 1 -->
+        <div class="mt-2 d-flex justify-content-between">
+          <!-- logo -->
+          <div>
+            <a href="index.html">
+              <img src="imgs/logo.png" style="width: 120px" class="img-fluid" alt="logo" />
+            </a>
+          </div>
+          <!-- login reg button -->
+          <div class="d-flex">
+            <a class="nav-link active nav-link-ltr" href="register.html">Register</a>
+            <a class="nav-link active nav-link-ltr mx-3" href="login.html">Login</a>
+          </div>
+        </div>
+
+        <!-- part 2 -->
+        <div>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <div>
+                <!-- empty -->
+              </div>
+              <!-- collapse responsive button -->
+              <!-- data-bs-target related to id -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- id for this part -->
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link active nav-link-ltr" href="index.html">Home</a>
+                  <a class="nav-link active nav-link-ltr" href="profile.html">Profile</a>
+                  <a class="nav-link active nav-link-ltr" href="buyMiles.html">Buy Miles</a>
+                  <a class="nav-link active nav-link-ltr" href="sellMiles.html">Sell Miles</a>
+                  <a class="nav-link active nav-link-ltr" href="about.html">About Us</a>
+                  <a class="nav-link active nav-link-ltr" href="sellCredits.html">Sell Credit
+                  </a>
+                  <a class="nav-link active nav-link-ltr" href="blog.html">Blog</a>
+                  <a class="nav-link active nav-link-ltr" href="sellqantas.html">Sell Qantas</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+    </section>
+    <!-- navbar part end -->
+
+    <!-- banner part -->
+    <section class="divBack">
+      <br />
+      <br />
+      <div class="container max-auto mb-5">
+        <div class="row">
+          <!-- 1st column -->
+          <div class="col-12 col-lg-6 col-md-6 wow slideInLeft">
+            <h1 class="text-white">Sell Your Credit</h1>
+            <h1 class="text-white">Card Points for Cash</h1>
+            <br />
+            <p >
+              <h5 class="text-white">Quick. Simple. Secure.</h5>
+              <p class="text-white"> 
+                Have you accumulated credit card points you won't use? Don't
+                let them go to waste. Sell them quickly and safely at The Miles
+                Market.
+              </p>
+            </p>
+            <br />
+
+            <!-- rating -->
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="background-color: #2151a8; border-radius: 50px"
+            >
+              <div class="d-flex align-items-center">
+                <span>
+                  <i
+                    class="fa-solid fa-star star p-1"
+                    style="background-color: white; border-radius: 100%"
+                  ></i>
+                </span>
+
+                <p class="text-white mx-1 mt-3">
+                  Trustpilot Rating <b class="mx-1">4.8</b>
+                </p>
+              </div>
+
+              <div class="d-flex">
+                <span>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                </span>
+              </div>
+            </div>
+            <br />
+            <br />
+          </div>
+
+          <!-- 2nd column -->
+          <div class="col-12 col-lg-6 col-md-6 wow slideInRight">
+            <div class="formWidth">
+              <br />
+              <h3>Get Paid Today</h3>
+              <p>Check How Much Your Miles Are Worth</p>
+              <br />
+              <form action="">
+                <!-- first & last name -->
+                <div class="row">
+                  <!-- first name -->
+                  <div class="form-floating col-12 mb-3 col-md-6 col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control border-2"
+                      id="floatingInput"
+                      placeholder="email"
+                      required
+                    />
+                    <label for="floatingInput" class="mx-2">First Name*</label>
+                  </div>
+                  <!-- last name -->
+                  <div class="form-floating col-12 mb-3 col-md-6 col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control border-2"
+                      id="floatingPassword"
+                      placeholder="Password"
+                      required
+                    />
+                    <label for="floatingPassword" class="mx-2"
+                      >Last Name*</label
+                    >
+                  </div>
+                </div>
+
+                <!-- email -->
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control border-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    required
+                  />
+                  <label for="floatingPassword" class="mx-2">Email*</label>
+                </div>
+
+                <!-- phone -->
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control border-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    required
+                  />
+                  <label for="floatingPassword" class="mx-2">Phone*</label>
+                </div>
+
+                <!-- amount of points -->
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control border-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                    required
+                  />
+                  <label for="floatingPassword" class="mx-2"
+                    >Amount Of Points*</label
+                  >
+                </div>
+
+                <!-- types -->
+                <div class="col-12 mb-3 ">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example">
+                      <option selected>Type Of Miles Points</option>
+                      <option value="1">A</option>
+                      <option value="2">B</option>
+                      <option value="3">C</option>
+                    </select>
+                </div>
+
+                <!-- button -->
+                <div class="d-grid">
+                  <button class="btn btn-primary">
+                    Get my exclusive offer
+                  </button>
+                </div>
+                <br />
+
+                <!-- logo -->
+                <div class="d-flex justify-content-center">
+                  <div class="mx-3">
+                    <i class="fa-solid fa-lock text-success"> </i> htpps://
+                  </div>
+                  <div class="mx-3">
+                    <span style="color: #002f86">
+                      <i class="fa-brands fa-paypal"></i> <b>PayPal</b>
+                    </span>
+                  </div>
+                </div>
+                <br />
+              </form>
+            </div>
+          </div>
+          
+        </div>
+
+        <br><br><br>
+      </div>
+
+    </section>
+    <!-- banner part end -->
+
+    <!-- why choose the miles -->
+    <section>
+        <div class="container mx-auto">
+            <h2 class="text-center wow pulse" > <b>Why Choose The Miles Market?</b> </h2>
+            <br>
+            <!-- 1 -->
+            <div class="card h-100 mb-5 border-0" >
+                <div class="row g-0">
+                    <!-- part 1 -->
+                    <div class="col-md-4 wow slideInLeft">
+                        <img src="imgs/m1.png" class="img-fluid  rounded-start" alt="...">
+                    </div>
+
+                    <!-- part 2 -->
+                    <div class="col-md-8 ">
+                        <div class="card-body">
+                            <h5> <b>Unbeatable Offers</b> </h5>
+                            <div class="row row-cols-1 row-cols-md-2 g-1">
+                                <!-- col 1 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Quick Payments</b>  </span> </p>
+                                        <p class="card-text">
+                                            Experience fast payouts, ensuring you get your money in no time.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- col 2 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Quick Payments</b>  </span> </p>
+                                        <p class="card-text">
+                                            Experience fast payouts, ensuring you get your money in no time.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- col 3 -->
+                                <div class="col wow pulse">
+                                    <div class="card  h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Quick Payments</b>  </span> </p>
+                                        <p class="card-text">
+                                            Experience fast payouts, ensuring you get your money in no time.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- col 4 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Quick Payments</b>  </span> </p>
+                                        <p class="card-text">
+                                            Experience fast payouts, ensuring you get your money in no time.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="card h-100 mb-5 border-0" >
+                <div class="row g-0">
+                    <!-- part 1 -->
+                    <div class="col-md-8 ">
+                        <div class="card-body">
+                            <h5> <b>Stellar Reputation</b> </h5>
+                            <div class="row row-cols-1 row-cols-md-2 g-1">
+                                <!-- col 1 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Consistent Market Leadership</b>  </span> </p>
+                                        <p class="card-text">
+                                            Years of being at the forefront in the industry attest to our dedication and integrity.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- col 2 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Vast Experience</b>  </span> </p>
+                                        <p class="card-text">
+                                            With over 25,000 satisfied customers, our history speaks for itself.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- col 3 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>USA-Based Operations</b>  </span> </p>
+                                        <p class="card-text">
+                                            We are proudly headquartered and operating within the United States, ensuring strict adherence to standards.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- col 4 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b> Verified Reviews</b>  </span> </p>
+                                        <p class="card-text">
+                                            Thousands of 5-star reviews from genuine, delighted customers.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+  
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- part 2 -->
+                    <div class="col-md-4 wow slideInRight">
+                        <img src="imgs/m2.png" class="img-fluid  rounded-start" alt="...">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="card h-100 mb-5 border-0" >
+                <div class="row g-0">
+                    <!-- part 1 -->
+                    <div class="col-md-4 wow slideInLeft">
+                        <img src="imgs/m3.png" class="img-fluid  rounded-start" alt="...">
+                    </div>
+
+                    <!-- part 2 -->
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="wow bounce"> <b>Exceptional Customer Service</b> </h5>
+                            <div class="row row-cols-1 row-cols-md-2 g-1">
+                                <!-- col 1 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Responsive Team</b>  </span> </p>
+                                        <p class="card-text">
+                                            Queries or concerns? Expect swift responses every time.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- col 2 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b> Tailored Guidance </b>  </span> </p>
+                                        <p class="card-text">
+                                            From start to finish, we guide you through every step, making sure it's hassle-free.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- col 3 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>Dedicated Account Managers</b>  </span> </p>
+                                        <p class="card-text">
+                                            Every seller is valued, receiving dedicated support ensuring smooth transactions.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <!-- col 4 -->
+                                <div class="col wow pulse">
+                                    <div class="card h-100 border-0">
+                                    <div class="card-body">
+                                        <p class="card-title"> <span> <i class="fa-regular fa-circle-check"></i> <b>A-Class Assistance</b>  </span> </p>
+                                        <p class="card-text">
+                                            Our team's commitment is to provide unparalleled support throughout your selling process.
+                                        </p>
+                                    </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- why choose the miles end -->
+
+    <!-- supported card -->
+    <section class="container mx-auto">
+        <h2 class="text-center wow bounce">Supported Credit Card Companies</h2>
+        <p>
+            We buy all points from these brands, as well as other credit card companies — if you need more information on
+            what we accept, just get in touch! We're always happy to help.
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- 1 -->
+            <div class="col wow slideInLeft">
+                <div class="card border-0 h-100">
+                <img src="imgs/card1.png" class="card-img-top w-75 img-fluid" alt="...">
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col wow pulse">
+                <div class="card border-0 h-100">
+                <img src="imgs/card2.png" class="card-img-top w-75 img-fluid" alt="...">
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col wow pulse">
+                <div class="card border-0 h-100">
+                <img src="imgs/card3.png" class="card-img-top w-75 img-fluid" alt="...">
+                </div>
+            </div>
+  
+            <!-- 4 -->
+            <div class="col wow slideInRight">
+                <div class="card border-0 h-100">
+                <img src="imgs/card4.png" class="card-img-top w-75 img-fluid" alt="...">
+                </div>
+            </div>
+
+        </div>
+         <br><br>
+    </section>
+    <!-- supported card end -->
+
+    <!-- data safety -->
+    <section class="mb-5" style="background-color: #EAFCFF;">
+        <br><br>
+        <div class="container mx-auto">
+            <h2 class="text-center wow bounce" >Your Data's Safety: Our Unwavering Commitment</h2> 
+            <p>Robust Measures to Ensure Every Transaction is Secure and Confidential</p> 
+            <br>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- 1 -->
+                <div class="col wow slideInLeft">
+                    <div class="card h-100">
+                    <br>
+                    <div class="mx-auto" >
+                        <img src="imgs/second.png" class="card-img-top" style="width: 100px;" alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title"> Industry-Leading Encryption </h5>
+                        <p class="card-text">
+                            Leveraging encryption protocols to ensure your data remains impervious to threats.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col wow fadeIn">
+                    <div class="card h-100">
+                    <br>
+                    <div class="mx-auto" >
+                        <img src="imgs/first.png" class="card-img-top" style="width: 100px;" alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title"> SSL Secured Transactions </h5>
+                        <p class="card-text">
+                            Every transaction is guarded with SSL encryption, establishing a secure link between our server and your browser.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col wow slideInRight">
+                    <div class="card h-100">
+                    <br>
+                    <div class="mx-auto" >
+                        <img src="imgs/third.png" class="card-img-top" style="width: 80px;" alt="...">
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class="card-title"> Your trust is paramount </h5>
+                        <p class="card-text">
+                            We pledge never to sell or share your information with outside entities.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- data safety end -->
+
+    <!-- transform miles -->
+    <section class="container mx-auto mb-5" >
+      <!-- 1 -->
+      <div class="card border-0 h-100 mb-4 wow slideInLeft" >
+        <div class="row g-0">
+
+          <div class="col-md-6">
+            <img src="imgs/div1.png" class="img-fluid rounded-start" alt="...">
+          </div>
+
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">
+                <b>Transform Your Miles into Cash Instantly!</b>
+              </h5>
+              <p class="card-text">
+                 Thinking, 'What's the quickest way to sell my miles?' Look no further. Simply complete the form below and watch the magic happen!
+              </p>
+              <button class="btn btn-primary" style="border-radius: 50px;" >Fill out the Form > </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="card border-0 h-100 mb-4 wow slideInRight" >
+        <div class="row g-0">
+          
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">
+                <b>Still have questions?</b>
+              </h5>
+              <p class="card-text">
+                 We're here to guide and support you every step of the way through the process.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <img src="imgs/div2.png" class="img-fluid rounded-start" alt="...">
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- transform miles end -->
+
+    <!-- faq -->
+    <section class="container mx-auto wow pulse">
+      <div >
+        <h2 class="text-center mb-5"> <b>Frequently Asked Questions (FAQs)</b> </h2>
+
+        <div class="accordion accordion-flush w-75 mx-auto mb-4" id="accordionFlushExample">
+          <!-- 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b> Is It safe to sell Credit Card Points? </b>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                You can buy airline miles directly from the airline's website or through affiliated programs. Simply visit the airline's mileage store or contact their customer service to purchase miles. Keep in mind that buying miles is often more expensive than earning them through regular travel or credit card rewards.
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <b> Can I redeem my Credit Card Points for money? </b>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                The cost of buying airline miles varies widely and depends on the airline, the number of miles you want to purchase, and any promotions or discounts available. On average, prices can range from 2 to 4 cents per mile. It's recommended to check with the specific airline for the most accurate and up-to-date pricing.
+                </div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <b> Do credit card reward points expire? </b>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                When purchasing airline miles, ensure you use reputable platforms with secure payment methods. Legitimate providers prioritize the confidentiality of your personal information, but it's crucial to review their privacy policies and user reviews for added assurance.
+                </div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                <b> Can you tell me the worth of my credit card points? </b>
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">American Airlines AAdvantage Miles: Known for their extensive network and partnerships with various airlines, American Airlines miles are often sought after. 
+                The time it takes for purchased miles to appear in your account depends on the specific airline or rewards program. Typically, it should reflect within a few hours to a couple of days. Check the terms and conditions or contact customer support for precise information.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <br>
+        <span class="d-flex justify-content-center">
+            <button type="button" class="btn px-3 " style="background-color: #C2F5E9;
+             border-radius: 20px; border: none;"  > <b>Didn't find your answer? Contact us here</b> </button>
+        </span>
+
+      </div>
+      <br><br>
+    </section>
+    <!-- faq end -->
+
+    <!-- footer part -->
+    <section class="wow fadeIn wow fadeIn">
+      <!-- part 1 -->
+      <div style="background-color: #0B314E;">
+        <br>
+        <div class="container mx-auto mt-4" >
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+
+              <img src="imgs/logo.png" style="width: 100px" class="img-fluid" alt="">
+              <br><br>
+              <p class="footerText" >
+                The Miles Market is the best place to buy and sell airline miles, hotel points and credit card rewards
+              </p>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+              <p class="text-white"> <b>Quick links</b> </p>
+              <a href="" class="footerLinks" >Sell Airline Miles</a>
+              <br>
+              <a href="" class="footerLinks" >Buy Miles</a>
+              <br>
+              <a href="" class="footerLinks" >Sell Hotel Points</a>
+              <br>
+              <a href="" class="footerLinks" >Sell Credit Card Points</a>
+              <br>
+              <a href="" class="footerLinks" >Sitemap</a>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+              <p class="text-white"> <b>Company</b> </p>
+              <a href="" class="footerLinks" >Blog</a>
+              <br>
+              <a href="" class="footerLinks" >About Us</a>
+              <br>
+              <a href="" class="footerLinks" >Contact Us</a>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-12 col-md-6 col-lg-3" >
+              <p class="text-white"> <b>Contact Us</b> </p>
+              <!-- address -->
+              <span class="d-flex " >
+                <i class="fa-solid fa-location-dot " style="color: #56D4FC; font-size: 20px;"></i>
+                <p class="footerLinks mx-3">2170 N 29th Ave Hollywood, <br> FL 33020</p>
+              </span>
+
+              <!-- phone -->
+              <span class="d-flex " >
+                <i class="fa-solid fa-phone-volume " style="color: #56D4FC; font-size: 20px;"></i>
+                <p class="footerLinks mx-3">8664583853</p>
+              </span>
+
+              <!-- social icons -->
+              <span class="text-white " style="font-size: 25px; " >
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin mx-2"></i>
+                <i class="fa-brands fa-twitter mx-2"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+
+            </div>
+            
+          </div>
+          <br> <br>
+
+          <!-- payment part -->
+          <div class="row">
+            <div class="text-center col-10 col-md-6 smallDiv" >
+              <p >
+                <b>Payment Methods</b> 
+              </p>
+              <!-- icons -->
+              <b >
+                <i class="fa-solid fa-circle-dollar-to-slot"></i> Cash| 
+                <i class="fa-solid fa-credit-card"></i> Credit Card |
+                <i class="fa-brands fa-paypal"></i> Paypal
+              </b>
+            </div>
+          </div>
+          
+          <br>
+          <p class="text-white text-center" > All Right Reserved The Miles Market | © 2024</p>
+          <br>
+        </div>
+
+      </div>
+
+      <br>
+      <!-- part 2 -->
+      <span class="text-center">
+        <p> <b>Non-Affiliation Disclaimer</b> </p>
+        <p>The Miles Market site is not endorsed by, or directly affiliated with any hotel or airline.</p>
+      </span>
+      <br>
+    </section>
+    <!-- footer part end -->
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
