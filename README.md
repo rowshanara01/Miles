@@ -64,7 +64,7 @@ project-name/
 ![Preview](images/screenshot.png)
 ```
 
-## 🤝 Contributing
+## 🤝 Contribute
 
 Contributions, issues and feature requests are welcome.
 
